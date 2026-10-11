@@ -1,0 +1,5 @@
+# Tested with Python 3.13. Exact versions: NumPy only guarantees the same random
+# stream from default_rng within one version, so do not loosen these pins.
+numpy==2.5.3
+pandas==3.0.5
+mlflow==3.17.0
